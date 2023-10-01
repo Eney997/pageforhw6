@@ -54,207 +54,64 @@ body {
     width: 540px;
     height: 266px;
 }
-#photos{
-    padding: 28px ;
+.avtori {
+    display: flex;
+    align-items: center;
+    column-gap:17px;
 }
-.name { 
-    margin-top: 32px;
-    margin-left: -4px;
+.photos {
+    width: 28px;
+    height: 28px;
+    margin-top: 26px;
+    margin-left: 32px;
+}
+.saxeli {
+    font-weight: 500;
     color: #FFF;
     font-size: 13px;
-    font-weight: 500;
-    line-height: 13px; 
+    line-height: 13px;
+    margin-top: 26px;
+}
+.namecolor {
+    color: #48556A;
 }
 .graduate {
-    color: #FFF;
-    margin-left: -4px;
-    font-size: 11px;
     font-weight: 500;
-    line-height: 11px; 
+    line-height: 11px;
+    color: #FFF;
+    font-size: 11px;
     opacity: 0.5;
 }
-.aboutdani {
-    display: flex;
-    margin-top: -10px;
-    
+.graducolor {
+    color: #48556A;
+
 }
-#info {
-    width: 476px;
+.info {
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
+    margin-top: 18px;
     margin-left: 32px;
+    margin-right: 32px;
+}
+.infocolor {
+    color: #48556A;
 }
 .descr {
-    width: 476px;
     color: #CFCFCF;
     font-size: 13px;
     font-weight: 500;
-    line-height: 18px; 
+    line-height: 18px;
+    opacity: 0.7;
+    width: 191px;
+    margin-bottom: 32px;
     margin-left: 32px;
     margin-top: 16px;
-    opacity: 0.7;
+    margin-right: 32px;
 }
-#photos1 {
-    padding: 28px;
-    
-}
-.name1 { 
-    margin-top: 28px ;
-    margin-left: -4px;
+.descrcolor {
     color: #48556A;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 13px; 
 }
-.graduate1 {
-    color: #48556A;
-    margin-left: -4px;
-    font-size: 11px;
-    font-weight: 500;
-    line-height: 11px; 
-    opacity: 0.5;
-}
-.aboutkira {
-    display: flex;
-    margin-top: -10px;
-}
-#info1 {
-    width: 191px;
-    color: #48556A;
-    font-size: 20px;
-    font-weight: 600;
-    margin-left: 32px;
-}
-.descr1 {
-    width: 191px;
-    color: #48556A;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 18px; 
-    margin-left: 32px;
-    margin-top: 16px;
-    opacity: 0.7;
-}
-#photos2 {
-    padding: 28px;
-    
-}
-.name2 { 
-    margin-top: 28px ;
-    margin-left: -4px;
-    color: #FFF;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 13px; 
-}
-.graduate2 {
-    color: #FFF;
-    margin-bottom: 30px; 
-    font-size: 11px;
-    font-weight: 500;
-    line-height: 11px; 
-    opacity: 0.5;
-}
-.aboutjon {
-    display: flex;
-    margin-top: -10px;
-}
-#info2 {
-    width: 191px;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 600;
-    margin-left: 32px;
-}
-.descr2 {
-    width: 191px;
-    color: #FFF;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 18px; 
-    margin-left: 32px;
-    margin-top: 16px;
-    opacity: 0.7;
-}
-#photos3 {
-    padding: 28px;
-    
-}
-.name3 { 
-    margin-top: 28px ;
-    margin-left: -4px;
-    color: #48556A;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 13px; 
-}
-.graduate3 {
-    color: #48556A;
-    margin-bottom: 30px; 
-    font-size: 11px;
-    font-weight: 500;
-    line-height: 11px; 
-    opacity: 0.5;
-}
-.aboutjean {
-    display: flex;
-    margin-top: -10px;
-}
-#info3 {
-    width: 191px;
-    color: #48556A;
-    font-size: 20px;
-    font-weight: 600;
-    margin-left: 32px;
-}
-.descr3 {
-    width: 191px;
-    color: #48556A;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 18px; 
-    margin-left: 32px;
-    margin-top: 16px;
-    opacity: 0.7;
-}
-#photos4 {
-    padding: 28px;
-    
-}
-.name4 { 
-    margin-top: 28px ;
-    margin-left: -4px;
-    color: #FFF;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 13px; 
-}
-.graduate4 {
-    color: #FFF;
-    margin-bottom: 30px; 
-    font-size: 11px;
-    font-weight: 500;
-    line-height: 11px; 
-    opacity: 0.5;
-}
-.aboutpat {
-    display: flex;
-    margin-top: -10px;
-}
-#info4 {
+.sigane {
     width: 476px;
-    color: #ECF2F8;
-    font-size: 20px;
-    font-weight: 600;
-    margin-left: 32px;
-}
-.descr4 {
-    width: 476px;
-    color: #FFF;
-    font-size: 13px;
-    font-weight: 500; 
-    margin-left: 32px;
-    margin-top: 16px;
-    opacity: 0.7;
 }
